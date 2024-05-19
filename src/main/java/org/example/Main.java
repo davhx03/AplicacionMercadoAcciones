@@ -11,7 +11,7 @@ public class Main {
 
             Acciones acciones = adapter.fromXml(xmlFilePath, Acciones.class);
             String accionesJSon = adapter.toJson(acciones);
-
+            System.out.println("Se ha exportado los datos de manera exitosa a formato .JSon");
             System.out.println(accionesJSon);
         } catch (IOException e) {
             e.printStackTrace();
