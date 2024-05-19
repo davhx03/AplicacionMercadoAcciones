@@ -7,4 +7,8 @@
         <nombre>Google</nombre>
         <precio>2800.00</precio>
     </Accion>
+    <Accion>
+        <nombre>Coca Cola</nombre>
+        <precio>300.00</precio>
+    </Accion>
 </Acciones>

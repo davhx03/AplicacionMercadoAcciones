@@ -6,6 +6,7 @@ public class Main {
     public static void main(String[] args) {
         try {
             AdaptadorJson adapter = new AdaptadorJson();
+            //NOTA: Se debe cambiar la ruta local del archivo XML (...src\main\java\org\example\acciones.xml)
             String xmlFilePath = "C:\\Users\\Lenovo\\Documents\\2. Bootcamp Makaia\\Talleres\\untitled\\src\\main\\java\\org\\example\\acciones.xml";
 
             Acciones acciones = adapter.fromXml(xmlFilePath, Acciones.class);
